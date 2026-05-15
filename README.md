@@ -1,25 +1,70 @@
 # Meshtastic Control by surc.ar
-Minimalist IRC-style Meshtastic Client Terminal for:
+
+Minimalist IRC-style Meshtastic terminal client for:
 
 - Raspberry Pi
 - Linux
 - Windows
 
-## Features
+---
 
-- Multi-tab chat
+# Screenshots
+
+## Main Chat Interface
+
+![Main Interface](images/meshcontrol_en_windows.png)
+
+## Direct Messages
+
+![Direct Messages](images/meshcontrol_en_raspberrypi.png)
+
+
+---
+
+# Features
+
+- IRC-style terminal interface
+- Multi-tab chat system
 - Direct Messages (DM)
-- IRC-style interface
 - Meshtastic serial support
-- Node browser
-- Channel support
-- LoRa presets
 - Cross-platform serial detection
+- Node browser
+- LoRa preset selector
+- Windows / Linux / Raspberry Pi support
+- Lightweight terminal UI
+- Built with Textual
 
-## Installation
+---
 
-Requires Python 3.13
+# ⚠ Python Version Requirement
 
-```bash
-pip install meshtastic-control
+This project currently REQUIRES:
 
+- Python 3.13
+
+Python 3.15 is currently NOT supported because of upstream Meshtastic / WinRT Bluetooth dependencies on Windows.
+
+---
+
+# Installation (Windows)
+
+## 1. Install Python 3.13
+
+Download:
+
+https://www.python.org/downloads/release/python-3139/
+
+IMPORTANT during installation:
+
+- Enable: `Add Python to PATH`
+
+---
+
+## 2. Install Meshtastic Control
+
+```powershell
+py -3.13 -m pip install --no-cache-dir meshtastic-control
+```
+## 3. Info
+For more information go to luiszambrana.ar
+Para más info encontrame en luiszambrana.ar

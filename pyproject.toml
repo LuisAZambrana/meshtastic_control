@@ -4,9 +4,12 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "meshtastic-control"
-version = "0.1.2"
+version = "0.1.5"
+
 requires-python = ">=3.10,<3.15"
+
 description = "Minimalist Meshtastic Client Terminal for Linux and Windows"
+
 authors = [
   {name = "Luis Zambrana / surc.ar"}
 ]
@@ -20,6 +23,11 @@ dependencies = [
 
 [tool.setuptools]
 py-modules = ["main"]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["backend*"]
 
 [project.scripts]
 meshcontrol = "main:run"
