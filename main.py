@@ -518,6 +518,10 @@ class MeshControl(App):
         self.status.write("Help: Click node for private chat | F3=Filter nodes | F4=Preset | Ctrl+C=Close tab")
 
 
-if __name__ == "__main__":
+def run():
     app = MeshControl()
     app.run()
+
+
+if __name__ == "__main__":
+    run()
