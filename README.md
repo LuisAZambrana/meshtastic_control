@@ -1,10 +1,11 @@
+![Logo](images/meshtastic_control_bysurcar.png)
 # Meshtastic Control by surc.ar
-
 Minimalist IRC-style Meshtastic terminal client for:
 
 - Raspberry Pi
 - Linux
 - Windows
+
 
 ---
 
