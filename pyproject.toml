@@ -17,8 +17,8 @@ dependencies = [
   "pypubsub"
 ]
 
-[tool.setuptools]
-py-modules = ["main"]
+[tool.setuptools.packages.find]
+where = ["."]
 
 [project.scripts]
 meshcontrol = "main:run"
