@@ -11,13 +11,15 @@ Minimalist IRC-style Meshtastic terminal client for:
 
 # Screenshots
 
-## Main Chat Interface
+## Main Chat Interface Windows & Linux
 
 ![Main Interface](images/meshcontrol_en_windows.png)
 
+![Direct Messages](images/meshcontrol_en_raspberrypi.png)
+
 ## Direct Messages
 
-![Direct Messages](images/meshcontrol_en_raspberrypi.png)
+![Direct Messages](images/meshcontrol_dm.png)
 
 
 ---
